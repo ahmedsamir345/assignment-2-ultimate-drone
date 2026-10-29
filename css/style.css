@@ -1,0 +1,467 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Exo",sans-serif;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+.nav-bar{
+    background-color: rgb(240, 232, 240);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 20;
+    border: 1px solid rgb(203, 200, 200);
+}
+.nav-container{
+    width: 80%;
+    height: 75px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-icon{
+    width: 40px;
+    height: 40px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-right: 7px;
+}
+.nav-title h1{
+    font-size: 25px;
+}
+.nav-title{
+    display: flex;
+    align-items: center;
+}
+.nav-icon img {
+    width: 25px;
+}
+.nav-links{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+}
+.nav-home{
+    color:rgb(176, 69, 205) ;
+    border-bottom: 2px solid;
+}
+
+.hero-section{
+    height: 600px;
+    margin-top: 200px;
+}
+.hero-container{
+    width: 80%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-img img{
+    width: 500px;
+    border-radius: 20px;
+}
+.hero-img{
+    border: 2px solid rgb(192, 187, 187);
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+}
+.hero-img span{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-color: blueviolet;
+    color: white;
+    padding: 4px 10px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 15px;
+}
+.hero-content{
+    width: 50%;
+}
+.hero-titles span{
+    background-color: rgb(148, 114, 181);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px 10px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.hero-content h1{
+    font-size: 50px;
+}
+.hero-content h1 span{
+    color: blueviolet;
+}
+.hero-content p{
+    font-size: 19px;
+    line-height: 1.5;
+}
+.hero-prices span{
+    font-size: 23px;
+    margin-right: 13px;
+}
+.hero-prices :first-child{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.hero-prices .hero-prices-discount{
+    background-color: rgb(248, 210, 217);
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px 10px;
+    border-radius: 20px;
+}
+.hero-prices p{
+    font-size: 16px;
+}
+.hero-button-one{
+    width: 95%;
+    height: 60px;
+    margin-top: 20px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.hero-button-two{
+    width: 95%;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+.hero-button-one img ,.hero-button-two img{
+    width: 20px;
+}
+
+.key-features{
+    background-color: rgb(240, 232, 240);
+    margin-top: 50px;
+}
+.key-features-container{
+    width: 80%;
+    margin-inline: auto;
+    padding-top: 30px;
+}
+.key-features-title h2{
+    text-align: center;
+    font-size: 40px;
+}
+.key-features-title h2 span{
+    color: blueviolet;
+}
+.key-features-title p{
+    text-align: center;
+    font-size: 20px;
+}
+.key-features-cards{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.key-cards{
+    width: 31%;
+    background-color: white;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.key-cards-img{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(238, 227, 249);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.key-cards-img img{
+    width: 25px;
+}
+.key-part-one p{
+    font-size: 14px;
+    font-weight: 700;
+    color: blueviolet;
+    padding-top: 10px;
+}
+.key-part-two h3{
+    font-size: 23px;
+}
+.key-part-three h4{
+    font-weight: 900;
+    font-size: 25px;
+    color: blueviolet;
+    padding-top: 10px;
+    border-top: 1px solid rgb(238, 229, 229);
+}
+.key-part-three p{
+    font-size: 14px;
+    color: gray;
+    height: fit-content;
+}
+.key-cards-2 .key-cards-img{
+    background-color: rgb(133, 245, 243);
+}
+.key-cards-2 .key-part-one p{
+    color: rgb(34, 169, 166);
+}
+.key-cards-3 .key-cards-img{
+    background-color: rgb(180, 236, 197);
+}
+.key-cards-3 .key-part-one p{
+    color: rgb(96, 169, 22);
+}
+.key-cards-4 .key-cards-img{
+    background-color: rgb(231, 202, 149);
+}
+.key-cards-4 .key-part-one p{
+    color: rgb(200, 77, 32);
+}
+.key-cards-5 .key-cards-img{
+    background-color: rgb(145, 243, 243);
+}
+.key-cards-5 .key-part-one p{
+    color: blue;
+}
+.key-cards-6 .key-cards-img{
+    background-color: rgb(231, 168, 149);
+}
+.key-cards-6 .key-part-one p{
+    color: red;
+}
+.key-features-footer{
+    background-color: rgb(107, 43, 226);
+    color: white;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-top: 40px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 170px;
+}
+.key-footer-content{
+    line-height: 0.5;
+}
+.key-footer-content .key-con-1{
+    color: rgb(197, 195, 195);
+    font-weight: 700;
+}
+.key-footer-content .key-con-2{
+    font-size: 30px;
+    font-weight: 700;
+}
+.key-features-footer button{
+    height: 50px;
+    margin-block: auto;
+    padding: 5px 50px;
+    border-radius: 25px;
+    background-color: white;
+    color: rgb(107, 43, 226);
+    font-size: 17px;
+    font-weight: 600;
+}
+.key-features-footer button span{
+    font-weight: 100;
+    font-size: 14px;
+    border: 2px dashed ;
+    border-radius: 20px;
+    margin-left: 10px;
+    padding: 0px 5px;
+}
+.reviews-title{
+    margin-top: 90px;
+    text-align: center;
+    line-height: 0.8;
+}
+.reviews-title h2{
+    font-size: 35px;
+}
+.reviews-title h2 span{
+    color: blueviolet;
+}
+.reviews-title p{
+    font-size: 20px;
+}
+.reviews-container{
+    width: 80%;
+    margin-inline: auto;
+}
+.reviews-all-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.reviews-left-card{
+    width: 30%;
+    height: 500px;
+    border: 2px solid rgb(219, 214, 214);
+    border-radius: 20px;
+    position: sticky;
+    top: 40px;
+
+}
+.left-card-one{
+    text-align: center;
+}
+.left-card-one h4{
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.left-card-one div img{
+    width: 25px;
+}
+.left-card-two{
+    margin-left: 30px;
+    font-size: 14px;
+    padding-top: 15px;
+}
+.left-card-rates span img{
+    width: 12px;
+}
+.left-card-rates span{
+    margin: 0px 5px;
+}
+.left-card-rates{
+    margin-bottom: 20px;
+}
+.left-card-rates .bar{
+    display: inline-block;
+    width: 65%;
+    height: 14px;
+    background-color: rgb(218, 218, 217);
+    border-radius: 20px;
+    position: relative;
+}
+.rate-one .bar::before{
+    content: "";
+    width: 78%;
+    height: 14px;
+    background-color: orange;
+    position: absolute;
+    border-radius: 20px;
+}
+.rate-two .bar::before{
+    content: "";
+    width: 15%;
+    height: 14px;
+    background-color: orange;
+    position: absolute;
+    border-radius: 20px;
+}
+.rate-three .bar::before{
+    content: "";
+    width: 5%;
+    height: 14px;
+    background-color: orange;
+    position: absolute;
+    border-radius: 20px;
+}
+.rate-four .bar::before{
+    content: "";
+    width: 1.5%;
+    height: 14px;
+    background-color: orange;
+    position: absolute;
+    border-radius: 20px;
+}
+.rate-five .bar::before{
+    content: "";
+    width: 0.5%;
+    height: 14px;
+    background-color: orange;
+    position: absolute;
+    border-radius: 20px;
+}
+.left-card-three{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid rgb(188, 186, 186);
+    line-height: 0.5;
+    width: 80%;
+    margin-inline: auto;
+}
+.left-card-three h5{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.left-card-three p {
+    font-size: 14px;
+}
+
+.reviews-right-cards{
+    width: 66%;
+}
+.right-cards{
+    border: 2px solid rgb(219, 214, 214);
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 20px;
+}
+.card-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.star-con img{
+    width: 20px;
+}
+.image-avatar img{
+    width: 50px;
+    border-radius: 25px;
+}
+.image-avatar{
+    padding-top: 30px;
+}
+.person-profile{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.person-profile .image-title{
+    margin-left: 20px;
+    line-height: 0.5;
+}
+.person-hint span{
+    color: blueviolet;
+    background-color: rgb(251, 225, 251);
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.person-hint p{
+    font-size: 13px;
+    padding-left: 30px;
+}
+.reviews-right-cards button{
+    font-size: 18px;
+    margin-top: 50px;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-left: 300px;
+}
